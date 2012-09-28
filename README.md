@@ -5,7 +5,8 @@ The code used in a lecture # 4 (28.09)
 # Task
 Implement normalization of a lambda term.
 Lambda term should be specified like this:
-  Appl(Abst(Var("x"), Appl(Var("x"),Var("y"))),Abst(Var("x"),Var("x")))
+
+Appl(Abst(Var("x"), Appl(Var("x"),Var("y"))),Abst(Var("x"),Var("x")))
 
 Use case classes and pattern matching!
 
